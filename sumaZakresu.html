@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //const wynik = 0;
+        //const mod = 21 % 2;
+        //console.log(mod);
+        //const length = tabela.length;
+        //console.log(length);
+        //const tabela = [5,10,70];
+        const czy3 = 3;
+        const czy5 = 5;
+        const zakresOd = 30;
+        const zakresDo = 90;
+        
+        function suma() {
+            let liczba = 0;
+            for(i=zakresOd; i<=zakresDo; i++) {
+            liczba += i;
+            //console.log(liczba); //wypisanie dodawania po kolei
+            }
+            if ((liczba % czy3) === 0) {
+                console.log("liczba " + liczba + " jest podzielna przez 3");
+            } else {
+                console.log("liczba " + liczba + " nie jest podzielna przez 3");
+            }
+            if ((liczba % czy5) === 0) {
+                console.log("liczba " + liczba + " jest podzielna przez 5");
+            } else {
+                console.log("liczba " + liczba + " nie jest podzielna przez 5");
+            }
+            console.log("suma liczb z zakresu to " + liczba);
+           
+        }
+        suma(zakresOd, zakresDo);
+         //return liczba + liczba
+            //console.log(liczba)
+        //console.log(liczba); 
+            //if (liczba>0) {
+                //liczba = liczba + tabela[i];
+                
+           //} 
+        //console.log(liczba);
+        //if (tabela[i] != NaN) {
+                //console.log("uwaga to nie liczba");
+                //} else (tabela[i] ) { 
+                    //liczba = tabela[i];
+                    //suma = liczba;
+                    //console.log();
+                    //}
+        
+        
+
+    </script>
+    
+</body>
+</html>
